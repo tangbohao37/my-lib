@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-angular": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@tbh/babel-preset-lib": "file:packages/babel-preset-lib",
     "@tbh/eslint-config": "file:packages/eslint-config",
     "@tbh/prettier-config": "file:packages/prettier-config",
