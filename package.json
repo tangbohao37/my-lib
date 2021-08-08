@@ -12,17 +12,17 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@tbh/babel-preset-lib": "file:packages/babel-preset-lib",
-    "@tbh/eslint-config": "file:packages/eslint-config",
-    "@tbh/prettier-config": "file:packages/prettier-config",
+    "@baertang/babel-preset-lib": "file:packages/babel-preset-lib",
+    "@baertang/eslint-config": "file:packages/eslint-config",
+    "@baertang/prettier-config": "file:packages/prettier-config",
     "@types/node": "^16.4.13",
     "eslint": "^7.32.0",
     "husky": "^7.0.1",
     "lerna": "^4.0.0"
   },
-  "prettier": "@tbh/prettier-config",
+  "prettier": "@baertang/prettier-config",
   "eslintConfig": {
-    "extends": "@tbh"
+    "extends": "@baertang"
   },
   "dependencies": {}
 }

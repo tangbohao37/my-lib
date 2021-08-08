@@ -1,7 +1,7 @@
 module.exports = {
   presets: [
     [
-      '@tbh/babel-preset-lib',
+      '@baertang/babel-preset-lib',
       {
         targets: {
           node: 14,
