@@ -48,5 +48,5 @@
     "@types/babel__helper-plugin-utils": "^7.10.0",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "1d23788d74e74d813eb8e61da905f713e9f21557"
+  "gitHead": "fa601f0f7ff58296cae4863602bb0aad64ae4306"
 }

@@ -37,7 +37,7 @@ export default declare((api, options) => {
           libraryDirectory: 'es', //
           style: true,
         },
-        'antd-mobile', // 对antd 使用
+        'antd', // 对antd 使用
       ],
     ],
   } as any
