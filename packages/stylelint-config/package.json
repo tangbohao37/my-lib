@@ -15,7 +15,7 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": ""
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -36,5 +36,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "b59b2acbc2c76b5a0edf7f9c640f2c9b164fdb6c"
+  "gitHead": "1d23788d74e74d813eb8e61da905f713e9f21557"
 }

@@ -41,7 +41,7 @@ exports.default = helper_plugin_utils_1.declare((api, options) => {
                     libraryDirectory: 'es',
                     style: true,
                 },
-                'antd', // 对antd 使用
+                'antd-mobile', // 对antd 使用
             ],
         ],
     };

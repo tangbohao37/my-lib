@@ -1,47 +1,47 @@
 {
-	"name": "@tbh/eslint-config",
-	"version": "0.0.3-alpha.0",
-	"description": "eslint config",
-	"author": "",
-	"homepage": "",
-	"license": "MIT",
-	"main": "lib/index.js",
-	"directories": {
-		"lib": "lib",
-		"test": "__tests__"
-	},
-	"files": [
-		"lib"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": ""
-	},
-	"repository": {
-		"type": "git",
-		"url": ""
-	},
-	"dependencies": {
-		"@babel/eslint-parser": "^7.13.14",
-		"@typescript-eslint/eslint-plugin": "^4.5.0",
-		"@typescript-eslint/parser": "^4.5.0",
-		"eslint": "^7.11.0",
-		"eslint-config-prettier": "^8.2.0",
-		"eslint-config-standard": "^16.0.1",
-		"eslint-config-standard-jsx": "^10.0.0",
-		"eslint-config-standard-react": "^11.0.1",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-promise": "^5.1.0",
-		"eslint-plugin-react": "^7.21.5",
-		"eslint-plugin-react-hooks": "^4.2.0",
-		"eslint-plugin-unicorn": "^32.0.1",
-		"prettier": "^2.1.2",
-		"typescript": "^4.0.3"
-	},
-	"devDependencies": {
-		"rimraf": "^3.0.2"
-	},
-	"gitHead": "b59b2acbc2c76b5a0edf7f9c640f2c9b164fdb6c"
+  "name": "@tbh/eslint-config",
+  "version": "0.0.3-alpha.0",
+  "description": "eslint config",
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "gitHead": "1d23788d74e74d813eb8e61da905f713e9f21557"
 }
