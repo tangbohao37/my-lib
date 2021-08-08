@@ -1,14 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.0.2-alpha.0",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*/__test__/*",
-        "*.md"
-      ],
+      "ignoreChanges": ["*/__test__/*", "*.md"],
+      "registry": "https://registry.npmjs.org/",
       "message": "chore(release): publish"
     }
   }
