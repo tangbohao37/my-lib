@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-lib",
+  "name": "@tbh/babel-preset-lib",
   "version": "1.0.0",
   "description": "babel preset for js lib",
   "author": "",

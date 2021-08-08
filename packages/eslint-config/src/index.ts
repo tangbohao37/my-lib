@@ -1,8 +1,8 @@
-let isReactExist = false;
+let isReactExist = false
 
 try {
-  require('react');
-  isReactExist = true;
+  require('react')
+  isReactExist = true
 } catch (error) {}
 
 const reactRules = {
@@ -13,7 +13,7 @@ const reactRules = {
   'react/jsx-indent': 'off',
   'react/jsx-handler-names': 'off',
   'react/react-in-jsx-scope': 'off',
-};
+}
 
 module.exports = {
   env: {
@@ -145,4 +145,4 @@ module.exports = {
       },
     },
   ],
-};
+}

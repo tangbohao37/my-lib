@@ -1,11 +1,11 @@
-import { declare } from '@babel/helper-plugin-utils';
-import presetEnv from '@babel/preset-env';
-import presetTypescript from '@babel/preset-typescript';
-import presetReact from '@babel/preset-react';
-import pluginTransformRuntime from '@babel/plugin-transform-runtime';
+import { declare } from '@babel/helper-plugin-utils'
+import presetEnv from '@babel/preset-env'
+import presetTypescript from '@babel/preset-typescript'
+import presetReact from '@babel/preset-react'
+import pluginTransformRuntime from '@babel/plugin-transform-runtime'
 
 export default declare((api, options) => {
-  api.assertVersion(7);
+  api.assertVersion(7)
   return {
     presets: [
       [
@@ -40,5 +40,5 @@ export default declare((api, options) => {
         'antd', // 对antd 使用
       ],
     ],
-  } as any;
-});
+  } as any
+})

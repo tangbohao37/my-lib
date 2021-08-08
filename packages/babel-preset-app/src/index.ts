@@ -1,7 +1,7 @@
-import { declare } from '@babel/helper-plugin-utils';
+import { declare } from '@babel/helper-plugin-utils'
 
 module.exports = declare((api, options) => {
-  api.assertVersion(7);
+  api.assertVersion(7)
 
   return {
     presets: [
@@ -23,5 +23,5 @@ module.exports = declare((api, options) => {
       ],
     ],
     env: {},
-  } as any;
-});
+  } as any
+})

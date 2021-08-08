@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "@tbh/stylelint-config",
   "version": "1.5.4",
   "description": "stylelint config",
   "author": "",

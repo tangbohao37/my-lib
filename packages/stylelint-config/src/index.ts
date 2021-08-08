@@ -10,4 +10,4 @@ module.exports = {
     'selector-pseudo-class-no-unknown': null,
   },
   ignoreFiles: ['**/*.(t|j)sx'],
-};
+}

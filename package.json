@@ -4,13 +4,25 @@
   "scripts": {
     "prepare": "husky install",
     "postinstall": "lerna bootstrap",
-    "build": "lerna run build "
+    "build": "lerna run build ",
+    "publish": "lerna publish",
+    "lint": "eslint . --ext .js,.ts --fix",
+    "clean": "lerna clean"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-angular": "^13.1.0",
+    "@tbh/babel-preset-lib": "file:packages/babel-preset-lib",
+    "@tbh/eslint-config": "file:packages/eslint-config",
+    "@tbh/prettier-config": "file:packages/prettier-config",
     "@types/node": "^16.4.13",
+    "eslint": "^7.32.0",
     "husky": "^7.0.1",
     "lerna": "^4.0.0"
-  }
+  },
+  "prettier": "@tbh/prettier-config",
+  "eslintConfig": {
+    "extends": "@tbh"
+  },
+  "dependencies": {}
 }
